@@ -77,7 +77,7 @@ button {
 
 .header {
   background-color: var(--color-white);
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--color-cornflower);
   padding: 24px 0px 24px 0px;
 }
 
@@ -408,8 +408,8 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  background: var(--color-cloud);
+  border: 1px solid var(--color-cornflower);
   border-radius: 4px;
   color: var(--color-iris);
   padding: 12px 24px;
@@ -418,7 +418,7 @@ button {
 .menu-list-button:hover,
 .menu-list-button:focus {
   background-color: var(--color-ocean);
-  color: #ffffff;
+  color: var(--color-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -441,7 +441,7 @@ button {
 
 .frame-container-text:hover,
 .frame-container-text:focus {
-  border: 0.5px solid #f4f4fd;
+  border: 0.5px solid var(--color-cloud);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
