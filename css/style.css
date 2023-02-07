@@ -11,12 +11,11 @@
   --color-navy-blue-modal: #2e2f42;
   --color-grey: #2e2f42;
   --color-white: #ffffff;
+  --color-footer-social: rgba(255, 255, 255, 0.1);
 
   /* fonts */
   --text-family-roboto: "Roboto", sans-serif;
   --text-family-raleway: "Raleway", sans-serif;
-
-  --gradient-hero-img: rgba(46, 47, 66, 0.7);
 }
 
 *,
@@ -211,9 +210,6 @@ button {
   gap: 24px;
 }
 
-.our-future-item {
-}
-
 .future-container-icons {
   padding: 24px 100px;
   background-color: var(--color-cloud);
@@ -252,9 +248,6 @@ button {
   list-style-type: none;
   display: flex;
   gap: 24px;
-}
-
-.our-product-image {
 }
 
 .team-section {
@@ -491,6 +484,16 @@ button {
   background-color: var(--color-navy-blue);
   padding: 100px 0px;
 }
+
+.box-footer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-logo-cont {
+  margin-right: 120px;
+}
+
 .logo-footer .footer-studio-logo {
   margin-bottom: 16px;
 }
@@ -515,4 +518,41 @@ button {
   color: var(--color-cornflower);
   width: 265px;
   margin-top: 16px;
+}
+
+.footer-social-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  margin-bottom: 16px;
+}
+.footer-contacts-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-contacts-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-footer-social);
+}
+
+.footer-contacts-link:hover {
+  background-color: var(--color-green);
+}
+
+.footer-contacts-icon {
+  fill: var(--color-cloud);
 }
